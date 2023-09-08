@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kumsomi.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/kumsomi.github.io/static/js/main.32724421.js",
+    "static/js/787.4f218f3d.chunk.js": "/kumsomi.github.io/static/js/787.4f218f3d.chunk.js",
+    "index.html": "/kumsomi.github.io/index.html",
+    "main.073c9b0a.css.map": "/kumsomi.github.io/static/css/main.073c9b0a.css.map",
+    "main.32724421.js.map": "/kumsomi.github.io/static/js/main.32724421.js.map",
+    "787.4f218f3d.chunk.js.map": "/kumsomi.github.io/static/js/787.4f218f3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.32724421.js"
+  ]
+}
