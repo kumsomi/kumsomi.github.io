@@ -1,6 +1,7 @@
 .nav-bar{
     display: flex;
     padding: 10px;
+    font-size: 25px;
 }
 
 .nav-links{
@@ -8,3 +9,21 @@
  display: flex;
  gap: 30px;
 }
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.link:hover{
+    color: var(--secondary-color);   
+}
+/* .unselected{
+    text-decoration:none;
+    color:inherit;
+} */
+.selected{
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+/* .selected:hover{
+    color: blue;
+} */

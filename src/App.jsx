@@ -4,17 +4,18 @@ import { Home } from "./pages/home";
 import { About } from "./pages/about";
 import { Projects } from "./pages/projects";
 import { Blogs } from "./pages/blogs";
-import Navbar from "./components/navbar";
+import { Layout } from "./layout/layout";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="blogs" element={<Blogs />} />
+        </Route>
       </Routes>
     </div>
   );
