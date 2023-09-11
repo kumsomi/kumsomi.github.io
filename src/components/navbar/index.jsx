@@ -23,15 +23,6 @@ const Navbar = () => {
             {link.text}
           </NavLink>
         ))}
-        {/* <NavLink className={navLinkClass} to="/about">
-          About
-        </NavLink>
-        <NavLink className={navLinkClass} to="/projects">
-          Projects
-        </NavLink>
-        <NavLink className={navLinkClass} to="/blogs">
-          Blogs
-        </NavLink> */}
       </div>
     </div>
   );
